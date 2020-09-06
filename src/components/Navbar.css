@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: black;
+    color: white;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}
+
+.nav__left{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+.nav__left > a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.nav__right > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.nav__right > .MuiButton-root{
+    border-radius: 50px;
+    border-color: rgba(50, 224, 196, 1);
+    color: rgba(50, 224, 196, 1);
+    margin: 10px 30px;
+    transition: background-color .2s ease-in;
+}
+
+.nav__right > .MuiButton-root:hover{
+    background-color: rgba(50, 224, 196, 1);
+    color: white;
+}
